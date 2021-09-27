@@ -1,11 +1,12 @@
 import React from "react";
-import { HeaderContainer } from "./Containers/index";
-import './App.css';
+import { HeaderContainer, IntroContainer } from "./Containers/index";
+import "./App.css";
 
 const App = () => {
   return (
     <div>
       <HeaderContainer />
+      <IntroContainer />
     </div>
   );
 };
