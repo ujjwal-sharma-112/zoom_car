@@ -30,7 +30,7 @@ export const NavItemContainer = styled.li`
 export const NavLinks = styled.a`
   & {
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 400;
   }
 `;
