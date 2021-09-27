@@ -1,6 +1,6 @@
 import React from "react";
 import { Intro } from "../Components/index";
-import bgImage from "../intro-bg.jpg";
+import bgImage from "../assets/intro-bg.jpg";
 
 const IntroContainer = () => {
   return (
