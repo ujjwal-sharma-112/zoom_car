@@ -3,6 +3,7 @@ import {
   HeaderContainer,
   IntroContainer,
   AdvantagesContainer,
+  SupermillersContainer,
 } from "./Containers/index";
 import "./App.css";
 
@@ -12,6 +13,7 @@ const App = () => {
       <HeaderContainer />
       <IntroContainer />
       <AdvantagesContainer />
+      <SupermillersContainer />
     </div>
   );
 };
