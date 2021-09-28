@@ -4,7 +4,8 @@ import {
   IntroContainer,
   AdvantagesContainer,
   SupermillersContainer,
-  WorkingContainer
+  WorkingContainer,
+  AppsContainer,
 } from "./Containers/index";
 import "./App.css";
 
@@ -16,6 +17,7 @@ const App = () => {
       <AdvantagesContainer />
       <SupermillersContainer />
       <WorkingContainer />
+      <AppsContainer />
     </div>
   );
 };
