@@ -1,0 +1,31 @@
+[{
+    "id": 1,
+    "title": "BOOK",
+    "image": "../images/icons/book-icon.svg",
+    "para": "Search for and book a car on our site."
+  },
+  {
+    "id": 2,
+    "title": "UPLOAD LICENSE",
+    "image": "../images/icons/upload-icon.svg",
+    "para": "Upload your driver’s license, and pay a small security deposit."
+  },
+  {
+    "id": 3,
+    "title": "UNLOCK",
+    "image": "../images/icons/lock-icon.png",
+    "para": "We SMS your car details 20 minutes before pickup. Unlock it via the Zoomcar app."
+  },
+  {
+    "id": 4,
+    "title": "ZOOM",
+    "image": "../images/icons/zoom-icon.svg",
+    "para": "Fill the start checklist in the Zoomcar app. Grab the keys from the glove-box and drive."
+  },
+  {
+    "id": 5,
+    "title": "RETURN",
+    "image": "../images/icons/return-icon.svg",
+    "para": "Return the car to the same location and fill the end checklist to end your trip."
+  }
+]

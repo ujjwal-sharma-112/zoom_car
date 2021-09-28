@@ -117,10 +117,21 @@ export const Para = styled.p`
 // Button
 
 export const Button = styled.a`
-  padding: 10px 60px;
-  border: 1px solid #666;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #323a44;
-  border-radius: 3px;
+  & {
+    padding: 10px 60px;
+    border: 1px solid #666;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #323a44;
+    border-radius: 3px;
+  }
+  &:hover {
+    padding: 10px 60px;
+    border: 1px solid #10a310;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #323a44;
+    border-radius: 3px;
+    cursor: pointer;
+  }
 `;

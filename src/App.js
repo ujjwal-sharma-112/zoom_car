@@ -4,6 +4,7 @@ import {
   IntroContainer,
   AdvantagesContainer,
   SupermillersContainer,
+  WorkingContainer
 } from "./Containers/index";
 import "./App.css";
 
@@ -14,6 +15,7 @@ const App = () => {
       <IntroContainer />
       <AdvantagesContainer />
       <SupermillersContainer />
+      <WorkingContainer />
     </div>
   );
 };
