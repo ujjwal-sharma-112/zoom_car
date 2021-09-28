@@ -4,3 +4,4 @@ export { default as Advantages } from "./Advantages";
 export { default as Supermillers } from "./Supermillers";
 export { default as Working } from "./Working";
 export { default as Apps } from "./Apps";
+export { default as Statistics } from "./Statistics";

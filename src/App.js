@@ -6,6 +6,7 @@ import {
   SupermillersContainer,
   WorkingContainer,
   AppsContainer,
+  StatisticsContainer
 } from "./Containers/index";
 import "./App.css";
 
@@ -18,6 +19,7 @@ const App = () => {
       <SupermillersContainer />
       <WorkingContainer />
       <AppsContainer />
+      <StatisticsContainer />
     </div>
   );
 };
