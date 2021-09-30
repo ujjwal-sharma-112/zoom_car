@@ -5,4 +5,5 @@ export { default as SupermillersContainer } from "./SupermillersContainer";
 export { default as WorkingContainer } from "./WorkingContainer";
 export { default as AppsContainer } from "./AppsContainer";
 export { default as StatisticsContainer } from "./StatisticsContainer";
-export { default as PrimaryLinksContainer } from './PrimaryLinksContainer';
+export { default as PrimaryLinksContainer } from "./PrimaryLinksContainer";
+export { default as ContactContainer } from "./ContactContainer";

@@ -7,7 +7,8 @@ import {
   WorkingContainer,
   AppsContainer,
   StatisticsContainer,
-  PrimaryLinksContainer
+  PrimaryLinksContainer,
+  ContactContainer,
 } from "./Containers/index";
 import "./App.css";
 
@@ -22,6 +23,7 @@ const App = () => {
       <AppsContainer />
       <StatisticsContainer />
       <PrimaryLinksContainer />
+      <ContactContainer />
     </div>
   );
 };

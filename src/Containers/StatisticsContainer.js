@@ -8,7 +8,7 @@ const StatisticsContainer = () => {
       <Statistics.FoldWrap>
         {statData.map((item) => (
           <Statistics.StatItem>
-            <Statistics.LazyImg src={item.image} />
+            <Statistics.LazyImg src={item.image} key={item.id} />
             <Statistics.Stats>{item.stat}</Statistics.Stats>
             <Statistics.Title>{item.title}</Statistics.Title>
           </Statistics.StatItem>

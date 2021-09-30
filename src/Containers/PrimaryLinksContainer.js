@@ -8,7 +8,7 @@ const PrimaryLinksContainer = () => {
       <PrimaryLinks.FooterWrapper>
         {primaryLinksData.map((data) => (
           <PrimaryLinks.Links>
-            <PrimaryLinks.LazyImg src={data.icon} />
+            <PrimaryLinks.LazyImg src={data.icon} key={data.id} />
             <PrimaryLinks.Title>{data.title}</PrimaryLinks.Title>
           </PrimaryLinks.Links>
         ))}
