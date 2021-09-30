@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "icon" : "../images/icons/question-mark.svg",
+    "title":"How Zoomcar Works?"
+  },
+  {
+    "id": 2,
+    "icon" : "../images/icons/policies-icon.svg",
+    "title":"Policies"
+  },
+  {
+    "id": 3,
+    "icon" : "../images/icons/help-icon.svg",
+    "title":"Help Support"
+  },
+  {
+    "id": 4,
+    "icon" : "../images/icons/safety-icon.svg",
+    "title":"Zoom in safety"
+  }
+]
