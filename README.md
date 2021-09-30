@@ -4,4 +4,4 @@ This project was created with React and Styled-Components
 
 ## Live Link
 
-https://cocky-wing-fa64fe.netlify.app/
+https://zoomcar-clone.netlify.app/
