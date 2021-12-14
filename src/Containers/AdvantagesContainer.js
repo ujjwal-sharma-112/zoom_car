@@ -10,8 +10,8 @@ const AdvantagesContainer = () => {
         We simplified car rentals, so you can focus on what's important to you.
       </Advantages.Subheading>
       <Advantages.AdvantagesItems>
-        {advantagesData.map((item) => (
-          <Advantages.AdvantageItem>
+        {advantagesData.map((item, index) => (
+          <Advantages.AdvantageItem key={index}>
             <Advantages.Image img={item.image} />
             <Advantages.AdvantageItemHeading>
               {item.title}

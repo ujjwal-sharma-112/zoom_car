@@ -42,13 +42,13 @@ Working.ItemSubHeading = function WorkingItemSubHeading({
   return <ItemSubHeading {...restProps}>{children}</ItemSubHeading>;
 };
 
-Working.LazyImg = function WorkingItemHeading({ ...restProps }) {
+Working.LazyImg = function WorkingLazyImg({ ...restProps }) {
   return <LazyImg {...restProps} />;
 };
 
 Working.SignUpButton = function WorkingSignUpButton({
   children,
   ...restProps
-}) {
+}) {  
   return <SignUpButton {...restProps}>{children}</SignUpButton>;
 };

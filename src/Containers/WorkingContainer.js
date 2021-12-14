@@ -1,7 +1,7 @@
 import React from "react";
 import { Working } from "../Components/index";
 import workData from "../assets/fixtures/work.json";
-import Supermillers from '../Components/Supermillers/index';
+import Supermillers from "../Components/Supermillers/index";
 
 const WorkingContainer = () => {
   return (
@@ -11,8 +11,8 @@ const WorkingContainer = () => {
         Drive yourself to an adventure and back in 5 simple steps
       </Working.SubHeading>
       <Working.FoldWrap>
-        {workData.map((item) => (
-          <Working.Item>
+        {workData.map((item, index) => (
+          <Working.Item key={index}>
             <Working.LazyImg src={item.image} />
             <Working.ItemHeading>{item.title}</Working.ItemHeading>
             <Working.ItemSubHeading>{item.para}</Working.ItemSubHeading>

@@ -14,7 +14,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <>
       <HeaderContainer />
       <IntroContainer />
       <AdvantagesContainer />
@@ -24,7 +24,7 @@ const App = () => {
       <StatisticsContainer />
       <PrimaryLinksContainer />
       <ContactContainer />
-    </div>
+    </>
   );
 };
 
