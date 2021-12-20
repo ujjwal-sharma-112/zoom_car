@@ -1,8 +1,8 @@
 import React from "react";
 import { Apps } from "../Components/index";
 import bgImg from "../assets/apps-bg.jpg";
-import googleStore from '../assets/google-store.png';
-import appleStore from '../assets/apple-store.png';
+import googleStore from '../assets/google-store.svg';
+import appleStore from '../assets/apple-store.svg';
 
 const AppsContainer = () => {
   return (
