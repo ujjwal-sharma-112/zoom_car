@@ -6,13 +6,13 @@ const SupermillersContainer = () => {
     <Supermillers>
       <Supermillers.PromoImage
         img={
-          "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005964/supermillers_sjpnlz.jpg"
+          "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005964/zoomcar_assets/supermillers_sjpnlz.jpg"
         }
       >
         <Supermillers.Opacity>
           <Supermillers.Logo
             logo={
-              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/supermiller-icon_lrwsjd.svg"
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/zoomcar_assets/supermiller-icon_lrwsjd.svg"
             }
             alt=""
           ></Supermillers.Logo>
@@ -28,7 +28,7 @@ const SupermillersContainer = () => {
           <Supermillers.Box>
             <Supermillers.Points
               points={
-                "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/points_tad2ia.svg"
+                "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/zoomcar_assets/points_tad2ia.svg"
               }
               alt=""
             ></Supermillers.Points>

@@ -4,7 +4,7 @@ import { Header } from "../Components/index";
 const HeaderContainer = () => {
   return (
     <Header>
-      <Header.Logo src={"https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/logo_slqljw.svg"} alt="" />
+      <Header.Logo src={"https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/zoomcar_assets/logo_slqljw.svg"} alt="" />
       <Header.Row>
         <Header.NavItems>
           <Header.NavItemContainer>

@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { PrimaryLinks } from "../Components";
-// import primaryLinksData from "../assets/fixtures/primary_links.json";
 import { getPrimaryLinks } from "../redux/data/data-action";
 import { connect } from "react-redux";
 

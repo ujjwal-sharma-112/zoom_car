@@ -13,13 +13,13 @@ const AppsContainer = () => {
         </Apps.SubHeading>
         <Apps.StoreImg
           storeImg={
-            "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/google-store_ciqnxe.svg"
+            "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/zoomcar_assets/google-store_ciqnxe.svg"
           }
           alt=""
         ></Apps.StoreImg>
         <Apps.StoreImg
           storeImg={
-            "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/apple-store_ckflx6.svg"
+            "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/zoomcar_assets/apple-store_ckflx6.svg"
           }
           alt=""
         ></Apps.StoreImg>

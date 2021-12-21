@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006066/question-mark_vqr2cv.svg",
+    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006066/zoomcar_assets/question-mark_vqr2cv.svg",
     "title":"How Zoomcar Works?"
   },
   {
     "id": 2,
-    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006066/policies-icon_n6hruo.svg",
+    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006066/zoomcar_assets/policies-icon_n6hruo.svg",
     "title":"Policies"
   },
   {
     "id": 3,
-    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006065/help-icon_xj7svy.svg",
+    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006065/zoomcar_assets/help-icon_xj7svy.svg",
     "title":"Help Support"
   },
   {
     "id": 4,
-    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/safety-icon_iwvzrg.svg",
+    "icon" : "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/zoomcar_assets/safety-icon_iwvzrg.svg",
     "title":"Zoom in safety"
   }
 ]

@@ -6,25 +6,25 @@
   },
   {
     "id": 2,
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006065/happy-icon_seytjg.svg",
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006065/zoomcar_assets/happy-icon_seytjg.svg",
     "title": "Happy Users",
     "stat": "48,00,000+"
   },
   {
     "id": 3,
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/speedometer_mdkmd3.svg",
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/zoomcar_assets/speedometer_mdkmd3.svg",
     "title": "Km Travelled",
     "stat": "36,00,00,000+"
   },
   {
     "id": 4,
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/garage_ixlc6l.svg",
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/zoomcar_assets/garage_ixlc6l.svg",
     "title": "Number of ZoomCars",
     "stat": "6,500+"
   },
   {
     "id": 5,
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/stars_ibpboz.svg",
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/zoomcar_assets/stars_ibpboz.svg",
     "title": "Rated by 3,00,000+ customers",
     "stat": "Rating 4.7/5.0"
   }

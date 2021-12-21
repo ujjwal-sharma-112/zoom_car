@@ -14,31 +14,31 @@ const ContactContainer = () => {
         <Contact.Social>
           <Contact.Icon
             src={
-              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/facebook-brands_phi9tj.svg"
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/zoomcar_assets/facebook-brands_phi9tj.svg"
             }
             alt=""
           />
           <Contact.Icon
             src={
-              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/instagram-brands_o17iaa.svg"
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/zoomcar_assets/instagram-brands_o17iaa.svg"
             }
             alt=""
           />
           <Contact.Icon
             src={
-              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/twitter-brands_v83zg4.svg"
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/zoomcar_assets/twitter-brands_v83zg4.svg"
             }
             alt=""
           />
           <Contact.Icon
             src={
-              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005769/linkedin-in-brands_urj2uu.svg"
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005769/zoomcar_assets/linkedin-in-brands_urj2uu.svg"
             }
             alt=""
           />
           <Contact.Icon
             src={
-              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/youtube-brands_lobomt.svg"
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/zoomcar_assets/youtube-brands_lobomt.svg"
             }
             alt=""
           />

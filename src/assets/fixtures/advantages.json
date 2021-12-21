@@ -2,36 +2,36 @@
     "id": 1,
     "title": "Fuel Cost Included",
     "subTitle": "Don't worry about mileage! All fuel costs are included. If you refill fuel, we'll pay you back!",
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/fuel_zrme8p.png"
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/zoomcar_assets/fuel_zrme8p.png"
   },
   {
     "id": 2,
     "title": "No Hidden Charges",
     "subTitle": "Our prices include taxes and insurance. What you see is what you really pay!",
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/files_idaxed.png"
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/zoomcar_assets/files_idaxed.png"
   },
   {
     "id": 3,
     "title": "Flexi Pricing Package",
     "subTitle": "One size never fits all! Choose a balance of time and kilometers that works best for you.",
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/gifts_ve5vvc.png"
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/zoomcar_assets/gifts_ve5vvc.png"
   },
   {
     "id": 4,
     "title": "Go Anywhere",
     "subTitle": "Our cars have all-India permits.Just remember to pay state tolls and entry taxes.",
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006065/location_phrozd.png"
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006065/zoomcar_assets/location_phrozd.png"
   },
   {
     "id": 5,
     "title": "24x7 Roadside assistance",
     "subTitle": "We have round-the-clock, pan India partners. Help is never far away from you.!",
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/road_uct8cb.png"
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006067/zoomcar_assets/road_uct8cb.png"
   },
   {
     "id": 6,
     "title": "Damage Insurance",
-    "subTitle": "All your bookings include damage insurance! Drive safe, but don’t worry!",
-    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/car_mbst5w.png"
+    "subTitle": "All your bookings include damage insurance! Drive safe, but don't worry!",
+    "image": "https://res.cloudinary.com/dfefjtnby/image/upload/v1640006064/zoomcar_assets/car_mbst5w.png"
   }
 ]
