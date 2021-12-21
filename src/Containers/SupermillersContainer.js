@@ -8,7 +8,6 @@ const SupermillersContainer = () => {
         img={
           "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005964/supermillers_sjpnlz.jpg"
         }
-        alt=""
       >
         <Supermillers.Opacity>
           <Supermillers.Logo

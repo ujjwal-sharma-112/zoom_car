@@ -3,7 +3,7 @@ import { Intro } from "../Components/index";
 
 const IntroContainer = () => {
   return (
-    <Intro img={"https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/intro-bg_ogji4u.jpg"} alt="">
+    <Intro img={"https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/intro-bg_ogji4u.jpg"}>
       <Intro.IntroWrapper>
         <Intro.Heading>DRIVE IN SANITISED ZOOMCAR</Intro.Heading>
         <Intro.CitySelector>
