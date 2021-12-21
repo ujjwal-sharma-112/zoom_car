@@ -1,11 +1,6 @@
 import React from "react";
 import { Contact } from "../Components/";
 import { FooterWrapper } from "../Components/PrimaryLinks/styles/PrimaryLinks";
-import facebook from "../assets/icons/facebook-brands.svg";
-import twitter from "../assets/icons/twitter-brands.svg";
-import youtube from "../assets/icons/youtube-brands.svg";
-import linkedIn from "../assets/icons/linkedin-in-brands.svg";
-import instagram from "../assets/icons/instagram-brands.svg";
 
 const ContactContainer = () => {
   return (
@@ -17,11 +12,36 @@ const ContactContainer = () => {
           Kodihalli, Bangalore – 560008
         </Contact.Address>
         <Contact.Social>
-          <Contact.Icon src={facebook} />
-          <Contact.Icon src={instagram} />
-          <Contact.Icon src={twitter} />
-          <Contact.Icon src={linkedIn} />
-          <Contact.Icon src={youtube} />
+          <Contact.Icon
+            src={
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/facebook-brands_phi9tj.svg"
+            }
+            alt=""
+          />
+          <Contact.Icon
+            src={
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/instagram-brands_o17iaa.svg"
+            }
+            alt=""
+          />
+          <Contact.Icon
+            src={
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/twitter-brands_v83zg4.svg"
+            }
+            alt=""
+          />
+          <Contact.Icon
+            src={
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005769/linkedin-in-brands_urj2uu.svg"
+            }
+            alt=""
+          />
+          <Contact.Icon
+            src={
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005768/youtube-brands_lobomt.svg"
+            }
+            alt=""
+          />
         </Contact.Social>
         <Contact.CopyRights>
           © Copyright 2017 Zoomcar India Private Ltd. All rights reserved.

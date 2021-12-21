@@ -1,0 +1,4 @@
+export const GET_PRIMARY_LINKS = "GET_PRIMARY_LINKS";
+export const GET_STATISTICS = "GET_STATISTICS";
+export const GET_ADVANTAGES = "GET_ADVANTAGES";
+export const GET_WORK = "GET_WORK";

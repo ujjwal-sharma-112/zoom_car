@@ -1,11 +1,10 @@
 import React from "react";
 import { Header } from "../Components/index";
-import logo from "../assets/logo.svg";
 
 const HeaderContainer = () => {
   return (
     <Header>
-      <Header.Logo src={logo} />
+      <Header.Logo src={"https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/logo_slqljw.svg"} alt="" />
       <Header.Row>
         <Header.NavItems>
           <Header.NavItemContainer>

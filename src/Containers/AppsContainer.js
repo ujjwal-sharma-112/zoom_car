@@ -1,8 +1,6 @@
 import React from "react";
 import { Apps } from "../Components/index";
 import bgImg from "../assets/apps-bg.jpg";
-import googleStore from '../assets/google-store.svg';
-import appleStore from '../assets/apple-store.svg';
 
 const AppsContainer = () => {
   return (
@@ -13,8 +11,18 @@ const AppsContainer = () => {
           Make a booking, unlock your car, and end your reservation all from our
           app
         </Apps.SubHeading>
-        <Apps.StoreImg storeImg={googleStore}></Apps.StoreImg>
-        <Apps.StoreImg storeImg={appleStore}></Apps.StoreImg>
+        <Apps.StoreImg
+          storeImg={
+            "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/google-store_ciqnxe.svg"
+          }
+          alt=""
+        ></Apps.StoreImg>
+        <Apps.StoreImg
+          storeImg={
+            "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/apple-store_ckflx6.svg"
+          }
+          alt=""
+        ></Apps.StoreImg>
       </Apps.FoldWrap>
     </Apps>
   );

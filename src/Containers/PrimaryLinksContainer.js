@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PrimaryLinks } from "../Components";
-import primaryLinksData from "../assets/fixtures/primary_links.json";
+// import primaryLinksData from "../assets/fixtures/primary_links.json";
+import { getPrimaryLinks } from "../redux/data/data-action";
+import { connect } from "react-redux";
 
-const PrimaryLinksContainer = () => {
+const PrimaryLinksContainer = ({ primaryLinksData, setPrimaryLinks }) => {
+  useEffect(() => {
+    setPrimaryLinks();
+  }, [setPrimaryLinks]);
+
   return (
     <PrimaryLinks>
       <PrimaryLinks.FooterWrapper>
-        {primaryLinksData.map((data, index) => (
-          <PrimaryLinks.Links key={index}>
-            <PrimaryLinks.LazyImg src={data.icon} key={data.id} />
+        {primaryLinksData.map((data) => (
+          <PrimaryLinks.Links key={data.id}>
+            <PrimaryLinks.LazyImg src={data.icon} alt="" key={data.id} />
             <PrimaryLinks.Title>{data.title}</PrimaryLinks.Title>
           </PrimaryLinks.Links>
         ))}
@@ -17,4 +23,19 @@ const PrimaryLinksContainer = () => {
   );
 };
 
-export default PrimaryLinksContainer;
+const mapStateToProps = (state) => {
+  return {
+    primaryLinksData: state.data.primaryLinks,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    setPrimaryLinks: () => dispatch(getPrimaryLinks()),
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(PrimaryLinksContainer);

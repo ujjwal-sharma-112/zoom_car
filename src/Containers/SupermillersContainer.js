@@ -1,18 +1,25 @@
 import React from "react";
 import { Supermillers } from "../Components/index";
-import supermillerImg from "../assets/supermillers.jpg";
-import supermillerLogo from "../assets/supermiller-icon.svg";
-import pointsIcon from "../assets/points.svg";
 
 const SupermillersContainer = () => {
   return (
     <Supermillers>
-      <Supermillers.PromoImage img={supermillerImg}>
+      <Supermillers.PromoImage
+        img={
+          "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005964/supermillers_sjpnlz.jpg"
+        }
+        alt=""
+      >
         <Supermillers.Opacity>
-          <Supermillers.Logo logo={supermillerLogo}></Supermillers.Logo>
+          <Supermillers.Logo
+            logo={
+              "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/supermiller-icon_lrwsjd.svg"
+            }
+            alt=""
+          ></Supermillers.Logo>
           <Supermillers.Heading>Supermiller Club</Supermillers.Heading>
           <Supermillers.SubHeading>
-            Premium club which rewards you everytime you drive with us
+            Premium club which rewards you every time you drive with us
           </Supermillers.SubHeading>
           <Supermillers.Dashed>Supermiller Privileges</Supermillers.Dashed>
         </Supermillers.Opacity>
@@ -20,7 +27,12 @@ const SupermillersContainer = () => {
       <Supermillers.Features>
         <Supermillers.Items>
           <Supermillers.Box>
-            <Supermillers.Points points={pointsIcon}></Supermillers.Points>
+            <Supermillers.Points
+              points={
+                "https://res.cloudinary.com/dfefjtnby/image/upload/v1640005963/points_tad2ia.svg"
+              }
+              alt=""
+            ></Supermillers.Points>
             <Supermillers.Title>Earn Z points</Supermillers.Title>
           </Supermillers.Box>
           <Supermillers.Para>

@@ -1,29 +1,13 @@
 import React from "react";
-import {
-  HeaderContainer,
-  IntroContainer,
-  AdvantagesContainer,
-  SupermillersContainer,
-  WorkingContainer,
-  AppsContainer,
-  StatisticsContainer,
-  PrimaryLinksContainer,
-  ContactContainer,
-} from "./Containers/index";
 import "./App.css";
+import { HomePage } from "./Pages";
 
 const App = () => {
   return (
     <>
-      <HeaderContainer />
-      <IntroContainer />
-      <AdvantagesContainer />
-      <SupermillersContainer />
-      <WorkingContainer />
-      <AppsContainer />
-      <StatisticsContainer />
-      <PrimaryLinksContainer />
-      <ContactContainer />
+      <div className="rootApp">
+        <HomePage />
+      </div>
     </>
   );
 };

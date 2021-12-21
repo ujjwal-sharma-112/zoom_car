@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Working } from "../Components/index";
-import workData from "../assets/fixtures/work.json";
 import Supermillers from "../Components/Supermillers/index";
+import { connect } from "react-redux";
+import { getWork } from "../redux/data/data-action";
 
-const WorkingContainer = () => {
+const WorkingContainer = ({ work, setWork }) => {
+  
+  useEffect(() => {
+    setWork();
+  }, [setWork])
+
   return (
     <Working>
       <Working.Heading>HOW ZOOMCAR WORKS</Working.Heading>
@@ -11,9 +17,9 @@ const WorkingContainer = () => {
         Drive yourself to an adventure and back in 5 simple steps
       </Working.SubHeading>
       <Working.FoldWrap>
-        {workData.map((item, index) => (
-          <Working.Item key={index}>
-            <Working.LazyImg src={item.image} />
+        {work.map((item) => (
+          <Working.Item key={item.id}>
+            <Working.LazyImg src={item.image} alt="" />
             <Working.ItemHeading>{item.title}</Working.ItemHeading>
             <Working.ItemSubHeading>{item.para}</Working.ItemSubHeading>
           </Working.Item>
@@ -24,4 +30,16 @@ const WorkingContainer = () => {
   );
 };
 
-export default WorkingContainer;
+const mapDispatchToProps = (dispatch) => {
+  return {
+    setWork: () => dispatch(getWork()),
+  };
+};
+
+const mapStateToProps = (state) => {
+  return {
+    work: state.data.work,
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(WorkingContainer);
